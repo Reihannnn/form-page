@@ -1,0 +1,91 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container-footage{
+  height: 100vh;
+  background-image: url(bg-image2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-square{
+  background-color: #252525;
+  padding:5%;
+  border-radius: 20px;
+}
+
+.section-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.logo{
+  width: 62px;
+}
+
+.title-s{
+  font-size: 25px;
+  color: rgb(226, 224, 224);
+}
+
+.sign{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.sign p {
+  color: white;
+  font-family: "arial";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.input-username{
+  padding: 15px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 245px;
+  border: none;
+  border-radius: 20px;
+}
+
+.input-password{
+  display: block;
+  padding: 15px;
+  width: 245px;
+  border: none;
+  border-radius: 20px;
+}
+
+.checkbox{
+  margin-top: 20px;
+
+}
+.item-checkbox{
+  color: rgb(227, 227, 227);
+  margin-left: 8px;;
+}
+
+.submit-button{
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  color: whitesmoke;
+  background-color: rgb(7, 116, 7);
+  border: none;
+}
+
+.forgot{
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
